@@ -15,6 +15,11 @@ def Check(alt):
     else:
         print("Please maintain 3000 altitude for landing clearence.\n")
         Recheck()
-def Recheck():
+
+def Start():
     Check(int(input('Please input your current altitude : ')))
-Check(int(input('Please input your current altitude : ')))
+def Recheck():
+    Start()
+    
+#Launches the Program
+Start()
