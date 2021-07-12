@@ -4,7 +4,7 @@ import random
 n = random.randint(0,12)
 
 
-print('Hi Captain, this ground control from YOYO Airport. You are estimately 5000 km from us.\n')
+print('Hi Captain, this is ground control from YOYO Airport. You are estimately 5000 km from us.\n')
 
 
 def Check(alt):
